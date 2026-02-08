@@ -24,7 +24,7 @@ module "rds" {
   db_username                = var.db_username
   db_password                = var.db_password
   db_name                    = var.db_name
-  db_instance_class_replica  = var.db_instance_class_replica
+ # db_instance_class_replica  = var.db_instance_class_replica
   db_instance_class_primary  = var.db_instance_class_primary 
 }
 
