@@ -19,9 +19,4 @@ resource "aws_db_instance" "primary" {
   skip_final_snapshot  = true
 }
 
-resource "aws_db_instance" "replica" {
-  identifier          = "replica-db"
-  replicate_source_db = aws_db_instance.primary.id
-  instance_class      = var.db_instance_class_replica
-  skip_final_snapshot = true
-}
+
