@@ -27,7 +27,7 @@ ec2_instance_type_2 = "t2.small"
 
 # RDS
 db_instance_class_primary  = "db.t3.micro"
-db_instance_class_replica  = "db.t3.micro"
+#db_instance_class_replica  = "db.t3.micro"
 
 db_username = "admin"
 db_password = "StrongPassword123!"
