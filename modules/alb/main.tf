@@ -10,7 +10,7 @@ resource "aws_lb" "alb" {
 
 
 resource "aws_security_group" "alb_sg" {
-  name   = "alb-sg"
+  name_prefix = "alb-sg-"
   vpc_id = var.vpc_id
 
   ingress {
